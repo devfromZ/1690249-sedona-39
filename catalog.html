@@ -8,7 +8,7 @@
 <body>
   <header class="page-header" data-test="header">
     <nav class="navigation">
-      <a class="navigation-logo" href="index.html"><img src="#" alt="Логотип сайта Седона"></a>
+      <a class="navigation-logo" href="index.html" aria-current="pagge"><img src="#" alt="Логотип сайта Седона"></a>
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">Главная</a>
@@ -46,10 +46,10 @@
           <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link"><span class="visually-hidden">Гостиницы</span></a>
+          <a class="breadcrumbs-link" aria-current="page"><span class="visually-hidden">Гостиницы</span></a>
         </li>
       </ul>
-      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
+      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="filter-group">
           <legend class="filter-group-title">Инфраструктура:</legend>
           <ul class="filter-list">
@@ -195,19 +195,19 @@
           <a class="pagination-button pagination-current">1</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-button">2</a>
+          <a class="pagination-button" href="#">2</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-button">3</a>
+          <a class="pagination-button href="#"">3</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-button">4</a>
+          <a class="pagination-button" href="#">4</a>
         </li>
         <li class="pagination-item">
           <span class="pagination-button ellipses">...</span>
         </li>
         <li class="pagination-item">
-          <a class="pagination-button">10</a>
+          <a class="pagination-button" href="#">10</a>
         </li>
       </ul>
     </section>
